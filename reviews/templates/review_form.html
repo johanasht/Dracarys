@@ -1,0 +1,48 @@
+{% extends 'base.html' %} 
+{% load static %}
+
+{% block meta %}
+<title>Review</title>
+<link rel="stylesheet" href="{% static 'reviews/css/rating.css' %}">
+{% endblock meta %} 
+
+{% block content %}
+<form id="review-form" method="post">
+  {% csrf_token %}
+  <div class="rating">
+    <span class="star" data-value="1">&#9733;</span>
+    <span class="star" data-value="2">&#9733;</span>
+    <span class="star" data-value="3">&#9733;</span>
+    <span class="star" data-value="4">&#9733;</span>
+    <span class="star" data-value="5">&#9733;</span>
+    <input type="hidden" id="id_rating" name="rating">
+  </div>
+  <div class="form-group">
+    <label for="id_ulasan">Review:</label>
+    <textarea class="form-control" id="id_ulasan" name="ulasan" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-outline-success">Submit Review</button>
+</form>
+
+{% if messages %}
+<ul>
+  {% for message in messages %}
+  <li>{{ message }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<script>
+  $(document).ready(function() {
+    $('.star').click(function() {
+      // Update the hidden input field with the selected rating value
+      $('#id_rating').val($(this).data('value'));
+      // Update the UI to reflect the selected rating
+      $(this).addClass('selected');
+      $(this).prevAll().addClass('selected');
+      $(this).nextAll().removeClass('selected');
+    });
+  });
+</script>
+
+{% endblock content %}

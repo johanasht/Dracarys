@@ -1,0 +1,93 @@
+{% extends "base.html" %} {% load static %} {% block meta %}
+<title>Food | SiBuk</title>
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+  rel="stylesheet"
+/>
+{% endblock meta %} 
+
+{% block content %}
+<div
+  class="flex container items-center align-center mx-auto flex-col mt-4"
+  style="margin-bottom: 10em"
+>
+  <div class="filter-box">
+    <form
+      id="filterForm"
+      class="filter-form"
+      method="GET"
+      onsubmit="submitFilterForm()"
+    >
+      <button type="submit" class="filter-btn" name="category" value="Nasi">
+        <img src="{% static "images/category/rice_icon.png" %}" class="filter-img" alt="">
+        <span>Rice</span>
+      </button>
+      <button type="submit" class="filter-btn" name="category" value="Mie">
+        <img src="{% static "images/category/noodle_icon.png" %}" class="filter-img" alt="">
+        <span>Noodle</span>
+      </button>
+      <button type="submit" class="filter-btn" name="category" value="Snack">
+        <img src="{% static "images/category/snack_icon.png" %}" class="filter-img" alt="">
+        <span>Snack</span>
+      </button>
+      <button type="submit" class="filter-btn" name="category" value="Lainnya">
+        <img src="{% static "images/category/other_icon.png" %}" class="filter-img" alt="">
+        <span>Others</span>
+      </button>
+      <button type="submit" class="filter-btn" name="" value="">
+        <img src="{% static "images/category/no_filter_food.png" %}" class="filter-img" alt="">
+        <span>Remove Filter</span>
+      </button>
+    </form>
+  </div>
+
+  <div class="d-flex flex-wrap gap-4 justify-content-center mt-4">
+    {% for food in foods %}
+    <div class="card-box">
+      <div class="card-box-inner shadow-sm">
+        <div class="card-box-front d-flex gap-4">
+          <img
+          {% if food.category == "Nasi"  %}
+            src="{% static  'images/category/rice_icon.png' %}"
+          {% elif food.category == "Mie"  %}
+            src="{% static  'images/category/noodle_icon.png' %}"
+          {% elif food.category == "Snack"  %}
+            src="{% static  'images/category/snack_icon.png' %}"
+          {% elif food.category == "Lainnya"  %}
+            src="{% static  'images/category/other_icon.png' %}"
+          {% endif %}
+            class="card-decoration"
+            alt="card-decoration"
+          />
+          <div class="card-box-description">
+            <h5 class="card-box-title mt-4">{{ food.product.title|truncatewords:2 }}</h5>
+            <div>
+              <p>{{ food.merchant_area.title }}</p>
+              <p>{{ food.merchant_name|truncatewords:3 }}</p>
+            </div>
+            <div class="relative">
+              <a
+                href="{% url 'foods:food_detail' food.id %}"
+                class="btn btn-success"
+                style="background-color: #014d2f"
+              >
+                See Details
+              </a>
+            </div>
+          </div>
+          <a
+            class="small_heart"
+            href = "{% url 'foods:add_to_favorites' food.id %}"
+          >
+            <i class="fa-solid fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock content %} 
+{% block script %}
+<script src="{% static "foods/js/modal_Food.js" %}"></script>
+{% endblock script %}

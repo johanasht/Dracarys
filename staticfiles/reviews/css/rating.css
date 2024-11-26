@@ -1,0 +1,17 @@
+.rating {
+  display: inline-block;
+  font-size: 27px;
+  color: #ccc;
+  cursor: pointer;
+  letter-spacing: -1px;
+}
+
+/* Style for selected stars */
+.rating .star.selected {
+  color: #ffcc00;
+}
+
+.modal-content {
+  max-width: 500px; /* Adjust as needed */
+  margin: auto;
+}

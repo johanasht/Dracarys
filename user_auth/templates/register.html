@@ -1,0 +1,87 @@
+{% extends 'authenticate_base.html' %}
+{% load static %}
+{% block meta %}
+<title>Register | SiBuk</title>
+{% endblock meta %} 
+{% block content %}
+<div
+  class="login-container d-flex justify-content-center align-items-center position-absolute w-100 h-100"
+>
+  <div class="login border shadow-sm bg-white d-flex gap-4 w-100 h-100 m-4">
+    <div
+      class="login-left-side h-100 w-50 d-flex justify-content-center flex-column position-relative"
+    >
+      <div class="mx-auto">
+        <h1 class="register-title">Welcome to</h1>
+        <img class src="{% static 'images/logo.png' %}" alt="" width="180" />
+        <ul class="register-list mt-4">
+          <li class="register-item">
+            <span class="register-item-icon mr-4"
+              ><i class="fa-solid fa-tag"></i
+            ></span>
+            <span class="register-item-text">It's free!</span>
+          </li>
+          <li class="register-item">
+            <span class="register-item-icon mr-4"
+              ><i class="fa-solid fa-thumbs-up"></i
+            ></span>
+            <span class="register-item-text">Easy to use!</span>
+          </li>
+        </ul>
+      </div>
+      <p class="text-center copyright-text">© Copyright SiBuk. All rights reserved.</p>
+    </div>
+    <div class="login-right-side m-4 d-flex flex-column justify-content-center">
+      <h1 class="reg-right-title mx-auto">Get Started!</h1>
+      <p class="reg-right-desc mx-auto">Fill in the form</p>
+      <form id="reg-form" method="POST">
+        {% csrf_token %}
+          <div>
+            <select onchange="validateSelectMsg()" id="id_user_type" class="select-input" name="user_type">
+              <option selected value="">Account Type...</option>
+              <option value="admin">Admin</option>
+              <option value="user">User</option>
+            </select>
+            <p id="select-msg" class="messages mt-1"></p>
+          </div>
+          <div>
+            <input oninput="validateUsernameMsg()" class="username" type="text" name="username" placeholder="Username" id="id_username"> 
+            <p id="username-msg" class="messages mt-1"></p>
+          </div>
+          <div>
+            <input oninput="validateEmailMsg()" type="email" name="email" placeholder="Email" id="id_email">
+            <p id="email-msg" class="messages mt-1"></p>
+          </div>
+          <div>
+            <input oninput="validateFirstPasswordMsg()" type="password" name="password1" placeholder="Password" id="id_password1">
+            <p id="pass1-msg" class="messages mt-1"></p>
+          </div>
+          <div>
+            <input oninput="validateSecondPasswordMsg()" type="password" name="password2" placeholder="Password Confirmation" id="id_password2">
+            <p id="pass-msg" class="messages mt-1"></p>
+          </div>
+        </form>
+        {% if form.errors %}
+            <div class="errors mt-2 mb-2">
+            {% else %}
+            <div class="errors mt-10">
+            {% endif %}
+                {% if form.errors %}
+                {% for errors in form.errors.values %}
+                {% for error in errors %} 
+                <p class="error-message">{{ error }}</p>
+                {% endfor %}
+                {% endfor %}
+                <p class="text-red-500 text-xs pt-1">Please try again.</p>
+                {% endif %}
+            </div>
+        <button class="login-btn mt-4" id="submit-btn" dictsort form="reg-form" type="submit" value="Register">Register</button>
+        <p class="mt-4 text-center">Already have an account?  <a class="register-btn" href="{% url 'user_auth:login' %}">Login</a></p>
+    </div>
+
+  </div>
+</div>
+{% endblock content %}
+{% block script %}
+<script src="/static/js/auth.js"></script>
+{% endblock script %}

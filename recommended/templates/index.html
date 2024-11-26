@@ -1,0 +1,191 @@
+{% extends 'base.html' %} {% load static %} {% block meta %}
+<title>Home | SiBuk</title>
+{% endblock meta %} {% block content %}
+<!-- Hero Section -->
+<main
+  class="hero-container mx-auto py-4"
+>
+  <section class="hero-image-container">
+    <img src="static/images/hero.png" class="block hero-image" />
+  </section>
+  <section class="hero-content-container">
+    <h2 class="hero-title">Enhance your iftar experience,</h2>
+    <h2 class="hero-title">with SiBuk</h2>
+    <div class="hero-items d-flex gap-3 mt-4 mx-auto">
+      <div class="text-center d-flex flex-column" style="width: fit-content">
+        <span  class="hero-item-icon">
+          <i class="fa-solid fa-bowl-food"></i>
+        </span>
+        <div>
+          <div class="hero-item-desc">A lot of food</div>
+          <div class="hero-item-desc">recommendation</div>
+        </div>
+      </div>
+      <div class="text-center d-flex flex-column" style="width: fit-content">
+        <span  class="hero-item-icon">
+          <i class="fa-solid fa-mug-hot"></i>
+        </span>
+        <div>
+          <div class="hero-item-desc">Find your favorite</div>
+          <div class="hero-item-desc">drinks</div>
+        </div>
+      </div>
+      <div class="text-center d-flex flex-column" style="width: fit-content">
+        <span  class="hero-item-icon">
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <div>
+          <div class="hero-item-desc">Give your</div>
+          <div class="hero-item-desc">reviews</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Features Section -->
+<section class="features-container container-fluid my-4">
+  <h2 class="hero-title text-center py-4">Our Features</h2>
+  <div
+    class="features-items d-flex flex-wrap gap-4 text-center justify-content-center mt-4"
+  >
+    <a class="p-4 feature-item shadow-sm position-relative" href="{% url 'foods:show_food' %}">
+      <div class="feature-item-img">
+        <img src="static/images/food.png" alt="" class="food-img" />
+      </div>
+      <div class="feature-item-desc">
+        <h3 class="feature-title">Food Catalogue</h3>
+        <div class="features-desc">Explore delicious food</div>
+      </div>
+    </a>
+    <a class="p-4 feature-item shadow-sm position-relative" href="{% url 'drinks:show_drink' %}">
+      <div class="feature-item-img">
+        <img src="static/images/drinks.png" alt="" class="drinks-img" />
+      </div>
+      <div class="feature-item-desc">
+        <h3 class="feature-title">Drink Catalogue</h3>
+        <p class="features-desc">Find all fresh drinks</p>
+      </div>
+    </a>
+    <a class="p-4 feature-item shadow-sm position-relative" href="{% url 'favfnd:show_favorites' %}">
+      <div class="feature-item-img">
+        <img src="static/images/favorites.png" alt="" class="favorites-img" />
+      </div>
+      <div class="feature-item-desc">
+        <h3 class="feature-title">Favorites</h3>
+        <p class="features-desc">Add to favorites</p>
+      </div>
+    </a>
+    <a class="p-4 feature-item shadow-sm position-relative" href="{% url 'reviews:get_template' %}">
+      <div class="feature-item-img feature-item-reviews">
+        <img src="static/images/reviews.png" alt="" class="reviews-img" />
+      </div>
+      <div class="feature-item-desc">
+        <h3 class="feature-title">Reviews</h3>
+        <div class="features-desc">Give your review</div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- Recommended Section -->
+<section class="recommended-container container-fluid">
+  <h2 class="hero-title text-center">Explore Our Recommendation</h2>
+  <div>
+    <div class="filter-box">
+      <form
+        id="filterForm"
+        class="filter-form"
+        method="GET"
+      >
+        <button type="submit" class="filter-btn" name="type" value="Foods">
+          <img src="{% static "images/category/rice_icon.png" %}" class="filter-img" alt="">
+          <span>Foods</span>
+        </button>
+        <button type="submit" class="filter-btn" name="type" value="Drinks">
+          <img src="{% static "images/category/coffe_icon.png" %}" class="filter-img" alt="">
+          <span>Drinks</span>
+        </button>
+        <button type="submit" class="filter-btn" name="" value="">
+          <img src="{% static "images/category/no_filter_food.png" %}" class="filter-img" alt="">
+          <span>Remove Filter</span>
+        </button>
+      </form>
+    </div>
+    <div class="card-container m-4 p-4 d-flex flex-wrap gap-4 justify-content-center">
+      {% for foodItem in food %}
+      <!-- #### Card Item #### -->
+      <div class="card-box">
+        <div class="card-box-inner shadow-sm">
+          <div class="card-box-front d-flex gap-4">
+            <img
+            {% if foodItem.fields.category == "Nasi"  %}
+                src="{% static  'images/category/rice_icon.png' %}"
+            {% elif foodItem.fields.category == "Mie"  %}
+                src="{% static  'images/category/noodle_icon.png' %}"
+            {% elif foodItem.fields.category == "Snack"  %}
+                src="{% static  'images/category/snack_icon.png' %}"
+            {% elif foodItem.fields.category == "Lainnya"  %}
+                src="{% static  'images/category/other_icon.png' %}"
+            {% endif %}
+              src="{% static  'images/card-decoration.jpg' %}"
+              class="card-decoration"
+              alt="card-decoration"
+            />
+            <div class="card-box-description">
+              <h5 class="card-box-title mt-4" >{{ foodItem.fields.product.title|truncatewords:3 }}</h5>
+              <div>
+                <p>{{ foodItem.fields.merchant_area.title}}</p>
+                <p>{{ foodItem.fields.merchant_name.title|truncatewords:2 }}</p>
+              </div>
+              <div class="relative">
+                <a href="{% url 'foods:food_detail' foodItem.pk %}" class="btn-custom" style="background-color: #014d2f;">
+                    See Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <!-- #### Card Item #### -->
+      {% for drinkItem in drink %}
+      <!-- #### Card Item #### -->
+      <div class="card-box">
+        <div class="card-box-inner shadow-sm">
+          <div class="card-box-front d-flex gap-4">
+            <img
+            {% if  drinkItem.fields.category == "Kopi" %}
+              src="{% static  'images/category/coffe_icon.png' %}"
+            {% else %}
+              src="{% static 'images/category/non_coffee_icon.png' %}"
+            {% endif %}
+              src="{% static  'images/card-decoration.jpg' %}"
+              class="card-decoration"
+              alt="card-decoration"
+            />
+            <div class="card-box-description">
+              <h5 class="card-box-title mt-4">{{ drinkItem.fields.product.title|truncatewords:3 }}</h5>
+              <div>
+                <p>{{ drinkItem.fields.merchant_area }}</p>
+                <p>{{ drinkItem.fields.merchant_name }}</p>
+              </div>
+              <div class="relative">
+                <a href="{% url 'foods:food_detail' drinkItem.pk %}" class="btn btn-success" style="background-color: #014d2f;">
+                    See Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <!-- #### Card Item #### -->
+    </div>
+  </div>
+    
+  </div>
+</section>
+
+{% endblock content %}
+

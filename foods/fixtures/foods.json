@@ -1,0 +1,1102 @@
+[
+    {
+      "pk": 1,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Aneka Gorengan Siaga",
+        "category": "Lainnya",
+        "product": "ceker Mercon",
+        "description": "Ceker Ayam,Rawit Mercon,Bumbu Rempah"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Aneka Gorengan Siaga",
+        "category": "Lainnya",
+        "product": "Bakso Ceker Mercon",
+        "description": "Bakso Sapi,Ceker Ayam,Rawit Mercon,Bumbu Rempah"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Ya'mbok, Jatimelati",
+        "category": "Nasi",
+        "product": "Chicken Wing + Rice",
+        "description": "Chicken Wings Dan Nasi"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "foods.food",
+      "fields": {
+        "merchant_name": "Mie Djoedes, Mojosari",
+        "merchant_area": "jakarta",
+        "category": "Mie",
+        "product": "Mie Djoedes Oke",
+        "description": "Mie tanpa topping"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "foods.food",
+      "fields": {
+        "merchant_name": "Mie Djoedes, Mojosari",
+        "merchant_area": "jakarta",
+        "category": "Mie",
+        "product": "Mie Djoedes Extra",
+        "description": "Mie tanpa topping"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "foods.food",
+      "fields": {
+        "merchant_name": "Mie Djoedes, Mojosari",
+        "merchant_area": "jakarta",
+        "category": "Mie",
+        "product": "Mie Djoedes Marah",
+        "description": "Mie tanpa topping"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Cinepolis, Pondok Kelapa",
+        "category": "Snack",
+        "product": "POCOBANA 1",
+        "description": "Reguler Popcorn Banana Milk + 1 drink"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Cinepolis, Pondok Kelapa",
+        "category": "Snack",
+        "product": "POCOBANA 2",
+        "description": "Large Popcorn Banana Milk + 1 drink"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Cinepolis, Pondok Kelapa",
+        "category": "Snack",
+        "product": "Salty Popcorn Large with Lemon Tea 22 OZ",
+        "description": "Cinepolis Salt Popcorn Large + Lemon Tea 22oz"
+      }
+    },
+    {
+      "pk": 10,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Cinepolis, Pondok Kelapa",
+        "category": "Snack",
+        "product": "French Fries + Chicken Nugget with Soft Drink 22 OZ",
+        "description": "Cinepolis French Fries + Chicken Nugget + Soft Drink (choose 1) 22oz"
+      }
+    },
+    {
+      "pk": 11,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "330 Kopi, Ciledug",
+        "category": "Snack",
+        "product": "Pisang Lumer Coklat",
+        "description": "Sajian Pisang Lumer Dengan Rasa Coklat Yang Begitu Menggoda"
+      }
+    },
+    {
+      "pk": 12,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "330 Kopi, Ciledug",
+        "category": "Snack",
+        "product": "Roti Bakar",
+        "description": "Sajian Roti Bakar Kombinasi Keju Coklat Dan Wijen"
+      }
+    },
+    {
+      "pk": 13,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "330 Kopi, Ciledug",
+        "category": "Snack",
+        "product": "Kentang Goreng",
+        "description": "Sajian Kentang Goreng"
+      }
+    },
+    {
+      "pk": 14,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "C7HomeCoffee",
+        "category": "Snack",
+        "product": "Pao",
+        "description": "5 Pcs"
+      }
+    },
+    {
+      "pk": 15,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Cinepolis, Pondok Kelapa",
+        "category": "Snack",
+        "product": "Chicken Wonton with Jasmine Tea 22 OZ",
+        "description": "Cinepolis Chicken Wonton + Jasmine Tea 22oz"
+      }
+    },
+    {
+      "pk": 16,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Corndog Mozarella",
+        "category": "Snack",
+        "product": "Corndog Mozarella Mentahan",
+        "description": "Corndog Isi Full Mozarella Mentahan Tinggal Goreng Di Rumah"
+      }
+    },
+    {
+      "pk": 17,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Corndog Mozarella",
+        "category": "Snack",
+        "product": "Corndog Mozarella Saos Tomat Dan Mayo",
+        "description": "Corndog Isi Full Mozarella Dengan Toping Saos Tomat Dan Mayonaise Cocok Untuk Yg Tidak Suka Pedas"
+      }
+    },
+    {
+      "pk": 18,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Corndog Mozarella",
+        "category": "Snack",
+        "product": "Corndog Mozarella Coklat Kacang",
+        "description": "Corndog Isi Full Mozarella Dngan Topping Glaze Coklat Dan Taburan Kacang Yang Gurih Bisa Pesan Mentah Jika Jarak Jauh Tinggal Ketik Di Keterangan Nya Bisa Untuk Semua Rasa Corndog Moza"
+      }
+    },
+    {
+      "pk": 19,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Special Kebab Original Jumbo",
+        "description": "Menggoyang lidahmu tak terkira isiannya"
+      }
+    },
+    {
+      "pk": 20,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Special Kebab Keju",
+        "description": "Tak kan komplit harimu tanpa lumeran saus kejunya kebab bosman"
+      }
+    },
+    {
+      "pk": 21,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Special Burger Keju",
+        "description": "Daripada jadi cepu, mending makan special burger keju"
+      }
+    },
+    {
+      "pk": 22,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Special Hotdog Keju",
+        "description": "Kurus atau gendut adalah pilihan, tapi special hotdog keju adalah jawaban kala laparmu"
+      }
+    },
+    {
+      "pk": 23,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Canai Kecok Extra Keju",
+        "description": "Canai keju cokelat isiannya dijamin bikin terperanjat, tambah extra keju!"
+      }
+    },
+    {
+      "pk": 24,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Kebab Original Jumbo + Pisang Cokelat Lumer",
+        "description": "Paduan hemat untuk kamu pecinta kebab dan pisang cokelat lumer"
+      }
+    },
+    {
+      "pk": 25,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "GUREE, Senopati",
+        "category": "Nasi",
+        "product": "Truffle Gyudon (US Beef)",
+        "description": "Daging sapi premium U. S. disajikan dengan telur mata sapi dan truffle oil. (Di Luar Alat Makan Steril)"
+      }
+    },
+    {
+      "pk": 26,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "GUREE, Senopati",
+        "category": "Nasi",
+        "product": "Andaliman Sirloin With Sambal Matah (AUS Beef)",
+        "description": "Perpaduan Rempah Batak Dan Bali. Dengan Daging AUS Beef (tingkat Kematangan Medium Rare). Recommended! (Di Luar Alat Makan Steril)"
+      }
+    },
+    {
+      "pk": 27,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "GUREE, Senopati",
+        "category": "Nasi",
+        "product": "Truffle Gyudon (US Beef)",
+        "description": "Daging sapi premium U. S. disajikan dengan telur mata sapi dan truffle oil. (Di Luar Alat Makan Steril)"
+      }
+    },
+    {
+      "pk": 28,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "GUREE, Senopati",
+        "category": "Nasi",
+        "product": "Andaliman Sirloin With Sambal Matah (AUS Beef)",
+        "description": "Perpaduan Rempah Batak Dan Bali. Dengan Daging AUS Beef (tingkat Kematangan Medium Rare). Recommended! (Di Luar Alat Makan Steril)"
+      }
+    },
+    {
+      "pk": 29,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Hedon Cafe, Sukatani",
+        "category": "Snack",
+        "product": "Pisang Bakar",
+        "description": "Varian : Coklat , keju , milo"
+      }
+    },
+    {
+      "pk": 30,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Hedon Cafe, Sukatani",
+        "category": "Lainnya",
+        "product": "Bakso",
+        "description": "Varian : Bakso sapi , bakso mercon kuah , bakso mercon kering"
+      }
+    },
+    {
+      "pk": 31,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Hedon Cafe, Sukatani",
+        "category": "Lainnya",
+        "product": "Seblak",
+        "description": "Varian : seafood , sosis , bakso"
+      }
+    },
+    {
+      "pk": 32,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Hedon Cafe, Sukatani",
+        "category": "Lainnya",
+        "product": "sate sinchan",
+        "description": "pake daging ayam yang lembut"
+      }
+    },
+    {
+      "pk": 33,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Hedon Cafe, Sukatani",
+        "category": "Lainnya",
+        "product": "Kentang goreng",
+        "description": "orang blah sonoan mh suka manggilnya frinch fries"
+      }
+    },
+    {
+      "pk": 34,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kembang Bawang PIK",
+        "category": "Nasi",
+        "product": "Nasi Goreng Cakalang Asap",
+        "description": "Notes: Normal nya Agak Pedas Sedikit Dari Cakalangnya / Sedang / Pedas / Extra Pedas"
+      }
+    },
+    {
+      "pk": 35,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kembang Bawang PIK",
+        "category": "Nasi",
+        "product": "Nasi Goreng Cakalang Asap + Kecombrang",
+        "description": "Notes: Normal nya Agak Pedas Sedikit Dari Cakalangnya/ Sedang / Pedas / Extra Pedas"
+      }
+    },
+    {
+      "pk": 36,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kembang Bawang PIK",
+        "category": "Nasi",
+        "product": "Nasi Goreng Cakalang Asap + Kecombrang Pete",
+        "description": "Notes: Normal nya Agak Pedas Sedikit Dari Cakalangnya/ Sedang / Pedas"
+      }
+    },
+    {
+      "pk": 37,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kembang Bawang PIK",
+        "category": "Nasi",
+        "product": "Nasi Goreng Ayam + Kecombrang",
+        "description": "Notes: Normal / Sedang / Pedas / Extra Pedas"
+      }
+    },
+    {
+      "pk": 38,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kembang Bawang PIK",
+        "category": "Nasi",
+        "product": "Nasi Goreng Ayam Asap + Kecombrang",
+        "description": "Notes: Normal / Sedang / Pedas / Extra Pedas"
+      }
+    },
+    {
+      "pk": 39,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Makema Coffee",
+        "category": "Nasi",
+        "product": "Bebek Bali Kampung",
+        "description": "Bebek Goreng, Sambal Matah, Cameo, Nasi"
+      }
+    },
+    {
+      "pk": 40,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Large Cheese Pizza (8 Slice)",
+        "description": "Plain cheese pizza with lots of fun!"
+      }
+    },
+    {
+      "pk": 41,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Large Premium Pizza (8 Slice)",
+        "description": "Pizza dengan topping paling lengkap daging smoked beef, daging pepperoni cincang, sosis, paprika hijau dan merah, jamur champignon, bombay, mozzarella cheese, ditaburi oregano dan olive oil. Diameter pizza 32 cm"
+      }
+    },
+    {
+      "pk": 42,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Large Beef Mushroom (8 Slice)",
+        "description": "Pizza dengan topping daging smoke beef, jamur champignon, mozzarella cheese, ditaburi oregano dan olive oil. Diameter pizza 32 cm"
+      }
+    },
+    {
+      "pk": 43,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Large Meat (8 Slice)",
+        "description": "Pizza dengan topping daging smoked beef, pepperoni cincang premium, large sausage, mozzarella cheese, ditaburi oregano dan olive oil. Diameter pizza 32 cm"
+      }
+    },
+    {
+      "pk": 44,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Large Tuna Mayo (8 Slice)",
+        "description": "Pizza dengan topping daging tuna yang sudah direndam dengan air garam, mozzarella cheese, mayonaise kualitas premium, bombay (bisa dengan pilihan tanpa bombay) ditaburi oregano dan olive oil. Diameter pizza 32 cm"
+      }
+    },
+    {
+      "pk": 45,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Large Sausage Mushroom ( 8 Slice )",
+        "description": "Pizza dengan topping daging Sosis besar premium, jamur Champignon, Mozzarella Cheese, ditaburi oregano dan Olive oil. diameter pizza 32 cm"
+      }
+    },
+    {
+      "pk": 46,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Large Beef Mayo (8 Slice)",
+        "description": "Pizza dengan topping daging Smoke Beef, Mayonaise kualitas premium, Mozzarella Cheese, ditaburi oregano dan Olive oil. diameter pizza 32 cm"
+      }
+    },
+    {
+      "pk": 47,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Medium Premium ( 6 Slice )",
+        "description": "Pizza Premium dengan ukuran 25 cm"
+      }
+    },
+    {
+      "pk": 48,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Medium Beef Mushroom ( 6 Slice )",
+        "description": "Pizza Beef Mushroom dengan ukuran 25 cm"
+      }
+    },
+    {
+      "pk": 49,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Medium Sausage Mushroom ( 6 Slice)",
+        "description": "Pizza Sausage Mushroom dengan ukuran 25 cm"
+      }
+    },
+    {
+      "pk": 50,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Medium Tuna Mayo ( 6 Slice )",
+        "description": "Pizza Tuna Mayo dengan ukuran 25 cm"
+      }
+    },
+    {
+      "pk": 51,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Toko Pizza, Limo",
+        "category": "Lainnya",
+        "product": "Large Pepperoni ( 8 Slice)",
+        "description": "Pizza dengan topping daging Pepperoni kualitas premium, Mozzarella Cheese, ditaburi oregano dan Olive oil. diameter pizza 32 cm."
+      }
+    },
+    {
+      "pk": 52,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Ya'mbok, Jatimelati",
+        "category": "Nasi",
+        "product": "Ayam Yambok Crunchy Potongan",
+        "description": "1/4 Ekor Ayam Crunchy + Lalapan + Sambal Matah"
+      }
+    },
+    {
+      "pk": 53,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Ya'mbok, Jatimelati",
+        "category": "Nasi",
+        "product": "Ayam Yambok Original Ekoran",
+        "description": "Satu Ekor Ayam Yambok Orginal + Sambal Matah + Lalapan"
+      }
+    },
+    {
+      "pk": 54,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Ya'mbok, Jatimelati",
+        "category": "Nasi",
+        "product": "Rice Bowl Ayam",
+        "description": "Rice Bowl Ayam Dengan Variasi Rasa Pilihan"
+      }
+    },
+    {
+      "pk": 55,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Ya'mbok, Jatimelati",
+        "category": "Nasi",
+        "product": "Rice Bowl Sapi",
+        "description": "Rice Bowl Daging Sapi Dengan Variasi Rasa Pilihan"
+      }
+    },
+    {
+      "pk": 56,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Ya'mbok, Jatimelati",
+        "category": "Nasi",
+        "product": "Butter Rice",
+        "description": "Nasi Dengan Butter Yang Gurih Dan Pilihan Isi"
+      }
+    },
+    {
+      "pk": 57,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Special Canai Kebab + Rujak Cireng Mini",
+        "description": "Nikmati camilan canai kebab yang mengenyangkan dan gurihnya rujak cireng mini"
+      }
+    },
+    {
+      "pk": 58,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Special Burger Keju + Sosis Nugget",
+        "description": "Istimewanya special burger keju bersanding dengan camilan sosis nugget"
+      }
+    },
+    {
+      "pk": 59,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Boss 1 (Special Kebab + Special Canai Kebab)",
+        "description": "Duo kombo boss 1 special kebab dan special canai kebab"
+      }
+    },
+    {
+      "pk": 60,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Boss 2 (Black Kebab Jumbo Keju + Special Burger + Free Siomay Goreng)",
+        "description": "Paket andalan boss 2 untuk pecinta camilan sejati"
+      }
+    },
+    {
+      "pk": 61,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Special Kebab Extra Keju",
+        "description": "Tak kan komplit harimu tanpa lumeran saus kejunya kebab bosman"
+      }
+    },
+    {
+      "pk": 62,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Special Burger Extra Keju",
+        "description": "Daripada jadi cepu, mending makan special burger keju"
+      }
+    },
+    {
+      "pk": 63,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Special Hotdog Extra Keju",
+        "description": "Kurus atau gendut adalah pilihan, tapi special hotdog keju adalah jawaban kala laparmu"
+      }
+    },
+    {
+      "pk": 64,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Kebab Bosman, Ciputat",
+        "category": "Snack",
+        "product": "Canai Cokelat Keju Extra Keju",
+        "description": "Canai keju cokelat isiannya dijamin bikin terperanjat, tambah extra keju!"
+      }
+    },
+    {
+      "pk": 65,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "C7HomeCoffee",
+        "category": "Snack",
+        "product": "Mini Italian Pizza",
+        "description": "Pizza Mini Dengan Isi Sosis, Jamur, Bawang Bombay Dengan Saus Barbeque"
+      }
+    },
+    {
+      "pk": 66,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "C7HomeCoffee",
+        "category": "Snack",
+        "product": "French Fries n Sausage",
+        "description": "Kentang Goreng Dan Sosis"
+      }
+    },
+    {
+      "pk": 67,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Crackling",
+        "category": "Snack",
+        "product": "Pork Popcorn",
+        "description": "Fried Pork Popcorn"
+      }
+    },
+    {
+      "pk": 68,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Crackling",
+        "category": "Snack",
+        "product": "Cakwe",
+        "description": "Cakwe"
+      }
+    },
+    {
+      "pk": 69,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Dapur Cokelat, Cibubur",
+        "category": "Snack",
+        "product": "Chocostick",
+        "description": "Choco Stick Chocolate Isi 5 Pcs"
+      }
+    },
+    {
+      "pk": 70,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Dapur Cokelat, Cibubur",
+        "category": "Snack",
+        "product": "Choco Strawberry Stick",
+        "description": "Choco Stick Strawberry Isi 5 Pcs"
+      }
+    },
+    {
+      "pk": 71,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Dapur Cokelat, Cibubur",
+        "category": "Snack",
+        "product": "Choco Peanut Stick",
+        "description": "Choco Stick Choco Peanut Isi 5 Pcs"
+      }
+    },
+    {
+      "pk": 72,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Ya'mbok, Jatimelati",
+        "category": "Mie",
+        "product": "Noodle Bowl Ayam",
+        "description": "Mie Ayam Dengan Pilihan Rasa"
+      }
+    },
+    {
+      "pk": 73,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "jakarta",
+        "merchant_name": "Ya'mbok, Jatimelati",
+        "category": "Mie",
+        "product": "Noodle Bowl Sapi",
+        "description": "Mie Sapi Dengan Pilihan Rasa"
+      }
+    },
+    {
+      "pk": 74,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Bakmie Sedap Siantar",
+        "category": "Mie",
+        "product": "Miesua Pansit Polos (Sayur)",
+        "description": "Miesua Tanpa Daging / Telur"
+      }
+    },
+    {
+      "pk": 75,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Bakmie Sedap Siantar",
+        "category": "Mie",
+        "product": "Miesua Pansit Polos + Telur",
+        "description": "Miesua + Telur 1pc"
+      }
+    },
+    {
+      "pk": 76,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Bakmie Sedap Siantar",
+        "category": "Mie",
+        "product": "Miesua Pansit Jumbo",
+        "description": "Miesua + Telur 1/2pc"
+      }
+    },
+    {
+      "pk": 77,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Bakmie Sedap Siantar",
+        "category": "Mie",
+        "product": "Kwetiau Pansit Polos (Sayur)",
+        "description": "Kwetiau Tanpa Daging / Telur"
+      }
+    },
+    {
+      "pk": 78,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Bakmie Sedap Siantar",
+        "category": "Mie",
+        "product": "Kwetiau Pansit Polos + Telur",
+        "description": "Kwetiau + 1pc Telur Kecap"
+      }
+    },
+    {
+      "pk": 79,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Bakmie Sedap Siantar",
+        "category": "Mie",
+        "product": "Bakmie Kasar Polos (Sayur)",
+        "description": "Mie Tanpa Daging / Telur"
+      }
+    },
+    {
+      "pk": 80,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Bakmie Sedap Siantar",
+        "category": "Mie",
+        "product": "Bakmie Kasar Polos + Telur",
+        "description": "Mie + 1pc Telur Kecap"
+      }
+    },
+    {
+      "pk": 81,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Brownies for ANGEL",
+        "category": "Snack",
+        "product": "Original topping Serut",
+        "description": "Brownies Original dengan coklat lumer dan taburan coklat serut diatasnya. Sensasi coklat mewah berpadu dengan kelembutan brownies pasti membuat anda terhanyut dalam rasa brownies yang tak pernah bisa anda lupakan"
+      }
+    },
+    {
+      "pk": 82,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Brownies for ANGEL",
+        "category": "Snack",
+        "product": "ORIGINAL TOPPING KEJU",
+        "description": "Brownies Original dengan taburan topping Keju di atasnya dan di tengahnya ada lapisan coklat.. perpaduan lengkap rasa keju dan coklat. Sedang ada promo diskon sd 15 rb lebih hemat"
+      }
+    },
+    {
+      "pk": 83,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Brownies for ANGEL",
+        "category": "Snack",
+        "product": "ORIGINAL TOPPING ZEBRA",
+        "description": "Brownies coklat yang berlimpah dan meleleh di mulut akan memberikan sensasi tersendiri bagi para penikmat brownies coklat. Sekali anda menikmatinya di jamin nagih."
+      }
+    },
+    {
+      "pk": 84,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Brownies for ANGEL",
+        "category": "Snack",
+        "product": "brownies Original Durian",
+        "description": "brownies 2 lapis perpaduan brownies durian yg sgt enak dengan brownies original coklat"
+      }
+    },
+    {
+      "pk": 85,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Brownies for ANGEL",
+        "category": "Snack",
+        "product": "Brownies Keju 1 lapis",
+        "description": "Pencinta Keju pasti akan langsung jatuh hati pada brownies yang satu ini, keju nya sangat terasa memang ."
+      }
+    },
+    {
+      "pk": 86,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Brownies for ANGEL",
+        "category": "Snack",
+        "product": "ORIGINAL KEJU Panggang",
+        "description": "Perpaduan brownies Coklat dengan keju yang sangat pas, cocok untuk pencinta coklat keju"
+      }
+    },
+    {
+      "pk": 87,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Jp Coffee",
+        "category": "Mie",
+        "product": "Kwetiau Goreng Seafood",
+        "description": "Udang, Cumi, Bakso Ikan"
+      }
+    },
+    {
+      "pk": 88,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Jp Coffee",
+        "category": "Mie",
+        "product": "Ifumie Gr Seafood",
+        "description": "Ifumie + Seafood"
+      }
+    },
+    {
+      "pk": 89,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Jp Coffee",
+        "category": "Lainnya",
+        "product": "Taiso",
+        "description": "Tahu Isi Bakso"
+      }
+    },
+    {
+      "pk": 90,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Jp Coffee",
+        "category": "Nasi",
+        "product": "Chicken Steak + Teh Manis Dingin",
+        "description": "Ayam + Kentang Goreng + Sayuran + Saus"
+      }
+    },
+    {
+      "pk": 91,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Snack",
+        "product": "Nuget Pisang Coklat",
+        "description": "Nuget Pisang Toping Coklat"
+      }
+    },
+    {
+      "pk": 92,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Mie",
+        "product": "Mie Terocok",
+        "description": "Campuran Antara Bihun-mie Tiaw-mie Kuning"
+      }
+    },
+    {
+      "pk": 93,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Mie",
+        "product": "Mie Terocok Ayam",
+        "description": "Campuran Antara Bihun - Mie Tiaw - Mie Kuning"
+      }
+    },
+    {
+      "pk": 94,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Lainnya",
+        "product": "Spagheti Sauce Black",
+        "description": "Spagheti + Saus Hitam"
+      }
+    },
+    {
+      "pk": 95,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Lainnya",
+        "product": "Sop Ayam Kriuk",
+        "description": "Sop + Ayam Kriuk"
+      }
+    },
+    {
+      "pk": 96,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Nasi",
+        "product": "Ayam Di Cabein + Nasi",
+        "description": "Ayam Goreng + Sambal + Nasi"
+      }
+    },
+    {
+      "pk": 97,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Nasi",
+        "product": "Nasi Bakar Ayam Goreng",
+        "description": "Nasi Bakar + Ayam Goreng"
+      }
+    },
+    {
+      "pk": 98,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Nasi",
+        "product": "Nasi Bakar Ayam Bakar",
+        "description": "Nasi Bakar + Ayam Bakar"
+      }
+    },
+    {
+      "pk": 99,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Nasi",
+        "product": "Nasi Goreng Seafood",
+        "description": "Nasi Goreng (Udanggoreng)"
+      }
+    },
+    {
+      "pk": 100,
+      "model": "foods.food",
+      "fields": {
+        "merchant_area": "medan",
+        "merchant_name": "Kantor Kupie, Stabat",
+        "category": "Nasi",
+        "product": "Nasi Goreng Ayam",
+        "description": "Nasi Goreng + Ayam Goreng"
+      }
+    }
+  ]

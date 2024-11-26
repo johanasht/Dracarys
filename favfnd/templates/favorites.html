@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block meta %}
+<title>Favorites | SiBUk</title>
+{% endblock meta %}
+
+{% block content %}
+    <div class="container-fluid favorite-container mx-auto my-4">
+        <h2 class="hero-title text-center py-4">Explore Your Favorites</h2>
+        <div class="d-flex justify-content-center gap-4">
+            <a href="{% url "favfnd:show_favfood" %}" class="d-flex flex-column justify-content-center align-items-center fav-cata-item">
+                <img src="{% static "images/category/rice_icon.png" %}" class="fav-cata-img" alt="">
+                <span class="hero-title fs-2">Foods</span>
+            </a>
+            <a href="{% url "favfnd:show_favdrink" %}" class="d-flex flex-column justify-content-center align-items-center fav-cata-item">
+                <img src="{% static "images/category/coffe_icon.png" %}" class="fav-cata-img" alt="">
+                <span class="hero-title fs-2">Drinks</span>
+            </a>            
+        </div>
+    </div>
+{% endblock content %} 

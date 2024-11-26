@@ -1,0 +1,44 @@
+{% load static %}
+
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container-fluid mx-4">
+    <a class="navbar-brand" href="{% url 'recommended:show_page' %}">
+      <img src="{% static 'images/logo.png' %}" alt="" width="100" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link-custom active-custom" aria-current="page" href="{% url 'recommended:show_page' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-custom" href="{% url 'foods:show_food' %}">Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-custom" href="{% url 'drinks:show_drink' %}">Drinks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-custom" href="{% url 'favfnd:show_favorites' %}">Favorites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-custom" href="{% url 'reviews:get_template' %}">Reviews</a>
+        </li>
+      </ul>
+      {% if user.is_authenticated %}
+      <a href="{% url 'user_auth:logout' %}" class="nav-btn-custom">Logout</a>
+      {% else %}
+      <a href="{% url 'user_auth:login' %}" class="nav-btn-custom">Login</a>
+      {% endif %}
+    </div>
+  </div>
+</nav>

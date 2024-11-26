@@ -1,0 +1,482 @@
+[
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Almara Kopi (kopi Susu Gula Aren)",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Susu Gula Aren Yang Berbeda Dari Khalayak Umum"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Almara Kopi (kopi Susu Gula Aren)",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Susu Gula Aren Yang Berbeda Dari Khalayak Umum"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Millsis",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Susu Coklat Milo Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Millsis",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Susu Coklat Milo Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Millbro",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Susu Coklat Milo Plus Espresso Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Millbro",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Susu Coklat Milo Plus Espresso Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot 330 Helateh",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Teh Tarik Segar Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice 330 Helateh",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Teh Tarik Segar Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Ilusi Kopi",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Beraroma Rum Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Ilusi Kopi",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Beraroma Rum Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Kopi Jelly",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": ""
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Americano",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Hitam Dengan Beans Pilihan (Arabica)"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Americano",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Hitam Dengan Beans Pilihan (Arabica)"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Latte",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Latte",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Cappucino",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Cappucino",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Mocacino",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar dan Bubuk Coklat"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Mocacino",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar dan Bubuk Coklat"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Caramel Latte",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Caramel"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Frappucino",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Minuman Blend Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Caramel Latte",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Caramel"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Hazelnut Latte",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Hazelnut"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Hazelnut Latte",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Hazelnut"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Vanilla Latte",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Vanilla"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Vanilla Latte",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Vanilla"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Vietnam Drip",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": ""
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Kopi Tarik",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Kopi Tarik Adalah Minuman Kopi Yang Berasal Dari Asia Tenggara"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Kopi Matcha",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Matcha Yg Di Mix Dengan Espresso"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Kopi Charcoal",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Charcoal Yang Di Mix Dengan Espresso"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Matcha",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Minuman Segar Rasa Matcha"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Matcha",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Minuman Segar Rasa Matcha"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Charcoal",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Minuman Segar Rasa Charcoal Yang Unik"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Charcoal",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Minuman Segar Rasa Charcoal Yang Unik"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Coklat",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Minuman Segar Rasa Coklat"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Coklat",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Minuman Segar Rasa Coklat"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Hot Lemon Tea",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Teh Segar Dengan Rasa Lemon"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Lemon Tea",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Teh Segar Dengan Rasa Lemon"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ice Yakult Squash",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sajian Minuman Segar Paduan Yakult Dan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Kopi Beer",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Sensasi Kopi Yang Segar"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Teh Jelly",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Teh Dengan Campuran Susu Yg Di Mix Jelly"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Lemon Squash",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Minuman Lemon Dengan Campuran Sparkling Water"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Ocean Blue",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": ""
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Chocomint",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": ""
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Lychee Squash",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": ""
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Chocoreo",
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi, Ciledug",
+      "category": "Kopi/Minuman/Roti",
+      "description": "Perpaduan Chocolate Dan Oreo"
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Lemon Tea",
+      "merchant_area": "jakarta",
+      "merchant_name": "Abe Steak, Cibubur",
+      "category": "Aneka nasi/Minuman/Barat",
+      "description": ""
+    }
+  },
+  {
+    "model": "drinks.Drink",
+    "fields": {
+      "product": "Es Tea Manis",
+      "merchant_area": "jakarta",
+      "merchant_name": "Abe Steak, Cibubur",
+      "category": "Aneka nasi/Minuman/Barat",
+      "description": ""
+    }
+  }
+]

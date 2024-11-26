@@ -1,0 +1,20 @@
+{% extends 'base.html' %} 
+{% load static %}
+{% block content %}
+
+<div class="grid grid-cols-2 md:grid-cols-5 gap-4 px-4 md:px-0">
+    {% for review in reviews %}
+        <div class="max-w-md rounded overflow-hidden shadow-lg bg-white relative border">
+            <div class="px-4 md:px-6 py-4">
+                <div class="md:text-xl text-[#005b9c] font-inter font-bold mb-2">
+                    Rating: {{ review.rating }}
+                </div>
+                <div class="text-sm md:text-gray-600 mb-2">
+                    Review: {{ review.ulasan }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="flex container items-center align-center mx-auto flex-col mt-4">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-4 px-4 md:px-0"></div>
+        <select id="sort-by-dropdown">
+            <option value="reviews">Sort by Number of Reviews</option>
+            <option value="rating">Sort by Rating</option>
+        </select>
+    </div>
+    <div id="review-container" class="d-flex flex-wrap gap-4 justify-content-center mt-4 mb-4">
+        <!-- Will be filled with partial html -->
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        // Function to fetch and render reviews based on sorting criteria
+        function fetchReviews(sortBy) {
+            $.ajax({
+                url: "{% url 'reviews:get_reviews_template' %}",
+                method: "GET",
+                data: {sort_by: sortBy},
+                dataType: 'json',
+                success: function(response) {
+                    $("#review-container").html(response.html_content);
+                }
+            });
+        }
+
+        // Event listener for dropdown change
+        $("#sort-by-dropdown").change(function() {
+            var selectedSortBy = $(this).val();
+            fetchReviews(selectedSortBy);
+        });
+
+        fetchReviews("reviews");
+    });
+</script>
+
+{% endblock content %}

@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block meta %}
+		<title>Favorites | SiBUk</title>
+{% endblock meta %}
+{% block content %}
+  <div class="favorite-drink-container">
+    <div class="filter-box">
+      <form
+        id="filterForm"
+        class="filter-form"
+        method="GET"
+      >
+      <button type="submit" class="filter-btn" name="category" value="Kopi">
+        <img src="{% static "images/category/coffe_icon.png" %}" class="filter-img" alt="">
+        <span>Coffee</span>
+      </button>
+      <button type="submit" class="filter-btn" name="category" value="Non_Kopi">
+        <img src="{% static "images/category/non_coffee_icon.png" %}" class="filter-img" alt="">
+        <span>Non Coffee</span>
+      </button>
+      <button type="submit" class="filter-btn" name="" value="">
+        <img src="{% static "images/category/no_filter_drink.png" %}" class="filter-img" alt="">
+        <span>Remove Filter</span>
+      </button>
+      </form>
+    </div>
+    {% if favdrink  %}
+    <div class="d-flex flex-wrap gap-4 justify-content-center mt-4">
+      {% for item in favdrink %}
+      <div class="card-box">
+        <div class="card-box-inner shadow-sm">
+          <div class="card-box-front d-flex gap-4">
+            <img
+						{% if  item.category == "Kopi" %}
+            	src="{% static  'images/category/coffe_icon.png' %}"
+          	{% else %}
+           		src="{% static 'images/category/non_coffee_icon.png' %}"
+          	{% endif %}
+              class="card-decoration"
+              alt="card-decoration"
+            />
+            <div class="card-box-description">
+              <h5 class="card-box-title mt-4">{{ item.product.title|truncatewords:2 }}</h5>
+              <div>
+                <p>{{ item.merchant_area.title }}</p>
+                <p>{{ item.merchant_name|truncatewords:3 }}</p>
+              </div>
+              <div class="relative">
+                <a
+                  href="{% url 'foods:food_detail' item.pk %}"
+                  class="btn btn-success"
+                  style="background-color: #014d2f"
+                >
+                  See Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-message">
+      <h1 class="text-center">It looks like you don't have any favorite item</h1>
+      <a class="text-center cata-link" href="{% url "drinks:show_drink" %}"><h1>Explore Catalogue</h1></a>
+    </div>
+    {% endif %}
+  </div>
+{% endblock content %}
