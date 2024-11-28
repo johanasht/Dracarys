@@ -1,7 +1,7 @@
 {% extends 'authenticate_base.html' %}
 {% load static %}
 {% block meta %}
-<title>Login | SiBuk</title>
+<title>Login | Dracarys</title>
 {% endblock meta %} 
 
 {% block content %}
@@ -11,7 +11,7 @@
             <img src="{% static 'images/login.png' %}" alt="" width="350px">
         </div>
         <div class="login-right-side m-4 d-flex flex-column justify-content-center gap-4">
-            <img class="mx-auto" src="{% static 'images/logo.png' %}" alt="" width="120px">
+            <img class="mx-auto" src="{% static 'images/logo1.png' %}" alt="" width="120px">
             <form id="reg-form" method="POST" action="">
                 {% csrf_token %}
                 <div>
