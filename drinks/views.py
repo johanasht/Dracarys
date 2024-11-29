@@ -35,12 +35,14 @@ def drink_detail(request, drink_id):
 def add_drink(request):
     if request.method == "POST":
         merchant_area = request.POST.get('merchant_area')
+        calories = request.POST.get('calories')
+        print("Calories:", calories)
         merchant_name = request.POST.get('merchant_name')
         category = request.POST.get('category')
         product = request.POST.get('product')
         description = request.POST.get('description')
 
-        new_drink = Drink(merchant_area=merchant_area, merchant_name=merchant_name, category=category, product=product,
+        new_drink = Drink(merchant_area=merchant_area, calories=calories, merchant_name=merchant_name, category=category, product=product,
                         description=description)
         new_drink.save()
         return HttpResponse(b"CREATED", status=201)

@@ -1,1201 +1,1202 @@
 [
-    {
-        "pk": 1,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Almara Kopi",
-          "description": "Sajian kopi susu gula aren yang berbeda dari khalayak umum"
-        }
-    }, 
-
-    {
-        "pk": 2,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Almara Kopi",
-          "description": "Sajian kopi susu gula aren yang berbeda dari khalayak umum"
-        }
-    }, 
-
-    {
-        "pk": 3,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Hot Millsis",
-          "description": "Sajian susu coklat milo dengan racikan khas 3:30 Kopi"
-        }
-    },
-
-    {
-        "pk": 4,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Ice Millsis",
-          "description": "Sajian susu coklat milo dengan racikan khas 3:30 Kopi"
-        }
-    },
-
-    {
-        "pk": 5,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Millbro",
-          "description": "Sajian susu coklat milo plus espresso dengan racikan khas 3:30 Kopi"
-        }
-    },
-
-    {
-        "pk": 6,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Millbro",
-          "description": "Sajian susu coklat milo plus espresso dengan racikan khas 3:30 Kopi"
-        }
-    },
-
-    {
-        "pk": 7,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Hot 330 Helateh",
-          "description": "Sajian Teh Tarik Segar Khas 3 : 30 Kopi"
-        }
-    },
-
-    {
-        "pk": 8,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Ice 330 Helateh",
-          "description": "Sajian Teh Tarik Segar Khas 3 : 30 Kopi"
-        }
-    },
-
-    {
-        "pk": 9,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Ilusi Kopi",
-          "description": "Sajian Kopi Beraroma Rum Dengan Racikan Khas 3 : 30 Kopi"
-        }
-    },
-
-    {
-        "pk": 10,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Ilusi Kopi",
-          "description": "Sajian Kopi Beraroma Rum Dengan Racikan Khas 3 : 30 Kopi"
-        }
-    },
-
-    {
-        "pk": 11,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Kopi Jelly",
-          "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Jelly"
-        }
-    },
-
-    {
-        "pk": 12,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Americano",
-          "description": "Sajian Kopi Hitam Dengan Beans Pilihan (Arabica)"
-        }
-    },
-  
-    {
-        "pk": 13,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Americano",
-          "description": "Sajian Kopi Hitam Dengan Beans Pilihan (Arabica)"
-        }
-    },
-
-    {
-        "pk": 14,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Latte",
-          "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
-        }
-    },
-
-    {
-        "pk": 15,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Latte",
-          "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
-        }
-    },
-
-    {
-        "pk": 16,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Cappucino",
-          "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
-        }
-    },
-
-    {
-        "pk": 17,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Cappucino",
-          "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
-        }
-    },
-
-    {
-        "pk": 18,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Mocacino",
-          "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar dan Bubuk"
-        }
-    },
-
-    {
-        "pk": 19,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Mocacino",
-          "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar dan Bubuk"
-        }
-    },
-
-    {
-        "pk": 20,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Caramel Latte",
-          "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Caramel"
-        }
-    },
-
-    {
-        "pk": 21,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Caramel Latte",
-          "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Caramel"
-        }
-    },
-
-    {
-        "pk": 22,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Frappucino",
-          "description": "Sajian Minuman Blend Dengan Racikan Khas 3 : 30 Kopi"
-        }
-    },
-
-    {
-        "pk": 23,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Hazelnut Latte",
-          "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Hazelnut"
-        }
-    },
-
-    {
-        "pk": 24,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Hazelnut Latte",
-          "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Hazelnut"
-        }
-    },
-
-    {
-        "pk": 25,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Hot Vanilla Latte",
-          "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Vanilla"
-        }
-    },
-
-    {
-        "pk": 26,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Ice Vanilla Latte",
-          "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Vanilla"
-        }
-    },
-
-    {
-        "pk": 27,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Vietnam Drip",
-          "description": "Bubuk kopi yang dipress menggunakan saringan"
-        }
-    },
-
-    {
-        "pk": 28,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Kopi Tarik",
-          "description": "Kopi Tarik Adalah Minuman Kopi Yang Berasal Dari Asia Tenggara"
-        }
-    },
-
-    {
-        "pk": 29,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Kopi Matcha",
-          "description": "Matcha Yg Di Mix Dengan Espresso"
-        }
-    },
-
-    {
-        "pk": 30,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Kopi",
-          "product": "Kopi Charcoal",
-          "description": "Charcoal Yang Di Mix Dengan Espresso"
-        }
-    },
-
-    {
-        "pk": 31,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Hot Matcha",
-          "description": "Sajian Minuman Segar Rasa Matcha"
-        }
-    },
-
-    {
-        "pk": 32,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Ice Matcha",
-          "description": "Sajian Minuman Segar Rasa Matcha"
-        }
-    },
-
-    {
-        "pk": 33,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Hot Charcoal",
-          "description": "Sajian Minuman Segar Rasa Charcoal Yang Unik"
-        }
-    },
-
-    {
-        "pk": 34,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Ice Charcoal",
-          "description": "Sajian Minuman Segar Rasa Charcoal Yang Unik"
-        }
-    },
-
-    {
-        "pk": 35,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Hot Coklat",
-          "description": "Sajian Minuman Segar Rasa Coklat"
-        }
-    },
-
-    {
-        "pk": 36,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Ice Coklat",
-          "description": "Sajian Minuman Segar Rasa Coklat"
-        }
-    },
-
-    {
-        "pk": 37,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Hot Lemon Tea",
-          "description": "Sajian Teh Segar Dengan Rasa Lemon"
-        }
-    },
-
-    {
-        "pk": 38,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Ice Lemon Tea",
-          "description": "Sajian Teh Segar Dengan Rasa Lemon"
-        }
-    },
-
-    {
-        "pk": 39,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Ice Yakult Squash",
-          "description": "Sajian Minuman Segar Paduan Yakult Dan Racikan Khas 3 : 30 Kopi"
-        }
-    },
-
-    {
-        "pk": 40,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Kopi Beer",
-          "description": "Sensasi Kopi Yang Segar"
-        }
-    },
-
-    {
-        "pk": 41,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Teh Jelly",
-          "description": "Teh Dengan Campuran Susu Yg Di Mix Jelly"
-        }
-    },
-
-    {
-        "pk": 42,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Lemon Squash",
-          "description": "Minuman Lemon Dengan Campuran Sparkling Water"
-        }
-    },
-
-    {
-        "pk": 43,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Ocean Blue",
-          "description": ""
-        }
-    },
-
-    {
-        "pk": 44,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Chocomint",
-          "description": ""
-        }
-    },
-
-    {
-        "pk": 45,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Lychee Squash",
-          "description": ""
-        }
-    },
-
-    {
-        "pk": 46,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "330 Kopi",
-          "category": "Non_Kopi",
-          "product": "Chocoreo",
-          "description": "Perpaduan Chocolate Dan Oreo"
-        }
-    },
-
-    {
-        "pk": 47,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Kopi",
-          "product": "Espresso",
-          "description": "Sari Kopi"
-        }
-    },
-
-    {
-        "pk": 48,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Kopi",
-          "product": "Banana Coffee",
-          "description": "Kopi Susu Pisang"
-        }
-    },
-
-    {
-        "pk": 49,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Kopi",
-          "product": "Black Magic",
-          "description": "Kopi Hitam Soda Dengan Aren, Lemond, Dan Mojito"
-        }
-    },
-
-    {
-        "pk": 50,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Kopi",
-          "product": "V60",
-          "description": "Kopi Hitam Seduh Panas"
-        }
-    },
-
-    {
-        "pk": 51,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Kopi",
-          "product": "Japanese Ice",
-          "description": "Kopi Hitam Seduh Dingin"
-        }
-    },
-
-    {
-        "pk": 52,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Cannon Rock",
-          "description": "Ginger Soda Dengan Black Tea Special"
-        }
-    },
-
-    {
-        "pk": 53,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Lemonade Green Tea",
-          "description": "Sensasi Segar Lemon Dan Mint Dengan Basic Green Tea"
-        }
-    },
-
-    {
-        "pk": 54,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Kombucha",
-          "description": "Fermentasi Daun Teh Terbaik Menjadi Minuman Berkabonasi"
-        }
-    },
-
-    {
-        "pk": 55,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Rengganis Milk Tea",
-          "description": "Teh Hitam Sensasi Caramel Nutty Dipadu Dengan Susu Murni"
-        }
-    },
-
-    {
-        "pk": 56,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Iced Black Tea",
-          "description": "Basic teh"
-        }
-    },
-
-    {
-        "pk": 57,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Lychee Tea",
-          "description": "Teh Hitam Dengan Syrup Leci Dan Buah Leci"
-        }
-    },
-
-    {
-        "pk": 58,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Red Glory",
-          "description": ""
-        }
-    },
-
-    {
-        "pk": 59,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Yellow Macchiatea",
-          "description": ""
-        }
-    },
-
-    {
-        "pk": 60,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Mojito Mint",
-          "description": "Soda Dengan Syrup Mojito"
-        }
-    },
-
-    {
-        "pk": 61,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Pinky Punch",
-          "description": "Strawbery Blueberry Mojito Dan Soda"
-        }
-    },
-
-    {
-        "pk": 62,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Tropical Blue",
-          "description": "Banana Peppermint Blueberry Telang Dan Soda"
-        }
-    },
-
-    {
-        "pk": 63,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Ice Red Velvet",
-          "description": ""
-        }
-    },
-
-    {
-        "pk": 64,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Hot Red Velvet",
-          "description": ""
-        }
-    },
-
-    {
-        "pk": 65,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Banana Delight",
-          "description": "Susu Rasa Pisang Dengan Salted Caramel"
-        }
-    },
-
-    {
-        "pk": 66,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "C7HomeCoffee",
-          "category": "Non_Kopi",
-          "product": "Crumbs Milk",
-          "description": "Susu Rasa Salted Caramel Dengan Remahan Biskuit"
-        }
-    },
-
-    {
-        "pk": 67,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "CafeOTSS",
-          "category": "Kopi",
-          "product": "Piccolo Latte",
-          "description": "Single Espreso, Fresh Milk"
-        }
-    },
-
-    {
-        "pk": 68,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "CafeOTSS",
-          "category": "Kopi",
-          "product": "Rangepresso",
-          "description": "Sunkist, Tonic, Espresso"
-        }
-    },
-
-    {
-        "pk": 69,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "CafeOTSS",
-          "category": "Non_Kopi",
-          "product": "Hibiscus Mango",
-          "description": "Rosela Tea With Mango"
-        }
-    },
-
-    {
-        "pk": 70,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "CafeOTSS",
-          "category": "Non_Kopi",
-          "product": "Yakult Tea",
-          "description": "Tea With Yakult"
-        }
-    },
-
-    {
-        "pk": 71,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "CafeOTSS",
-          "category": "Non_Kopi",
-          "product": "Mineral Water",
-          "description": ""
-        }
-    },
-
-    {
-        "pk": 72,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "CafeOTSS",
-          "category": "Non_Kopi",
-          "product": "Somethin Green",
-          "description": "Green Apple Lemon"
-        }
-    },
-
-    {
-        "pk": 73,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "CafeOTSS",
-          "category": "Non_Kopi",
-          "product": "Thai Tea",
-          "description": "Tea, Milk"
-        }
-    },
-
-    {
-        "pk": 74,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Cotta Coffee",
-          "category": "Kopi",
-          "product": "Es Kopi Susu Regal",
-          "description": "Another Enjoyment Of Ice Coffee Susu Topped With Biscuits"
-        }
-    },
-
-    {
-        "pk": 75,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Cotta Coffee",
-          "category": "Kopi",
-          "product": "Es Kopi Susu Taro",
-          "description": "Must Try Also This One"
-        }
-    },
-
-    {
-        "pk": 76,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Cotta Coffee",
-          "category": "Kopi",
-          "product": "Salted Caramel Latte",
-          "description": "Taste The Creamy Of Salted In Coffee"
-        }
-    },
-
-    {
-        "pk": 77,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Cotta Coffee",
-          "category": "Kopi",
-          "product": "Butterscotch Latte",
-          "description": "Another Enjoyment Of Ice Coffee Susu Layered With Butterscotch"
-        }
-    },
-
-    {
-        "pk": 78,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Cotta Coffee",
-          "category": "Non_Kopi",
-          "product": "Taro",
-          "description": "Taro(han) Ini Enak"
-        }
-    },
-
-    {
-        "pk": 79,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Cotta Coffee",
-          "category": "Non_Kopi",
-          "product": "Milo Dinosaur",
-          "description": "Sometimes Your Kid Need More Than Water"
-        }
-    },
-
-    {
-        "pk": 80,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Cotta Coffee",
-          "category": "Non_Kopi",
-          "product": "Korean Strawberry Milk Latte",
-          "description": "Must Try This Latte"
-        }
-    },
-
-    {
-        "pk": 81,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Kopi",
-          "product": "Irish Caffe Latte (Hot)",
-          "description": "Paduan Latte dan rum non alkohol yang menghasilkan aroma dan rasa lembut"
-        }
-    },
-
-    {
-        "pk": 82,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Kopi",
-          "product": "Irish Caffe Latte (Ice)",
-          "description": "Paduan Latte dan rum non alkohol yang menghasilkan aroma dan rasa lembut"
-        }
-    },
-
-    {
-        "pk": 83,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Kopi",
-          "product": "Caramel Praline Macchiato (Hot)",
-          "description": "Latte dengan saus Praline dan karamel dengan rasa dan aroma manis"
-        }
-    },
-
-    {
-        "pk": 84,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Kopi",
-          "product": "Caramel Praline Macchiato (Ice)",
-          "description": "Latte dengan saus Praline dan karamel dengan rasa dan aroma manis"
-        }
-    },
-
-    {
-        "pk": 85,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Kopi",
-          "product": "Double Iced Shaken Latte",
-          "description": "Dua shot espresso yang dikocok dengan susu dan whipped cream"
-        }
-    },
-
-    {
-        "pk": 86,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Hazelnut Chocolate (Hot)",
-          "description": "Cokelat kaya dan lembut dengan rasa hazelnut"
-        }
-    },
-
-    {
-        "pk": 87,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Hazelnut Chocolate (Ice)",
-          "description": "Cokelat kaya dan lembut dengan rasa hazelnut"
-        }
-    },
-
-    {
-        "pk": 88,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Hibiscus Pink Grapefruit",
-          "description": "Kebaikan buah grapefruit dan hibiscus yang memberi kesegaran sepanjang hari"
-        }
-    },
-
-    {
-        "pk": 89,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Hibiscus Peach Yakult",
-          "description": "Kebaikan buah peach, hibiscus, dan yakult yang memberi kesegaran sepanjang hari"
-        }
-    },
-
-    {
-        "pk": 90,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Hibiscus Berry Yakult",
-          "description": "Kebaikan buah berry, hibiscus, dan yakult yang memberi kesegaran sepanjang hari"
-        }
-    },
-
-    {
-        "pk": 91,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Biscuit Chizu",
-          "description": "Perpaduan susu segar dengan busa keju krim di atasnya dengan biskuit remuk"
-        }
-    },
-
-    {
-        "pk": 92,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Choco Chizu",
-          "description": "Cokelat kaya dan lembut dengan busa keju krim disajikan dengan es"
-        }
-    },
-
-    {
-        "pk": 93,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Matcha Chizu (Iced)",
-          "description": "Perpaduan antara matcha premium dan busa keju krim dalam cangkir"
-        }
-    },
-
-    {
-        "pk": 94,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Chizu Macchiato (Iced)",
-          "description": "Paduan susu, sirup roasted caramel, lapisan krim Chizu, dan espresso di atasnya"
-        }
-    },
-
-    {
-        "pk": 95,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "English Breakfast Tea (Hot)",
-          "description": "The legendary grand classic fragrant black tea"
-        }
-    },
-
-    {
-        "pk": 96,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "English Breakfast Tea (Iced)",
-          "description": "The legendary grand classic fragrant black tea"
-        }
-    },
-
-    {
-        "pk": 97,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Chamomile (Hot)",
-          "description": "Chamomile flowers boast a rich honey aroma and yield a golden, theine-free cup"
-        }
-    },
-
-    {
-        "pk": 98,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Chamomile (Iced)",
-          "description": "Chamomile flowers boast a rich honey aroma and yield a golden, theine-free cup"
-        }
-    },
-
-    {
-        "pk": 99,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Creme Caramel Tea (Hot)",
-          "description": "Delicate red tea from South Africa with blend of sweet French spices"
-        }
-    },
-
-    {
-        "pk": 100,
-        "model": "drinks.drink",
-        "fields": {
-          "merchant_area": "jakarta",
-          "merchant_name": "Fore Coffee",
-          "category": "Non_Kopi",
-          "product": "Creme Caramel Tea (Iced)",
-          "description": "Delicate red tea from South Africa with blend of sweet French spices"
-        }
+  {
+    "pk": 1,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Almara Kopi",
+      "calories": "140",
+      "description": "Sajian kopi susu gula aren yang berbeda dari khalayak umum"
     }
+  },
+  {
+    "pk": 2,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Almara Kopi",
+      "calories": "150",
+      "description": "Sajian kopi susu gula aren yang berbeda dari khalayak umum"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Hot Millsis",
+      "calories": "190",
+      "description": "Sajian susu coklat milo dengan racikan khas 3:30 Kopi"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Ice Millsis",
+      "calories": "200",
+      "description": "Sajian susu coklat milo dengan racikan khas 3:30 Kopi"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Millbro",
+      "calories": "220",
+      "description": "Sajian susu coklat milo plus espresso dengan racikan khas 3:30 Kopi"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Millbro",
+      "calories": "230",
+      "description": "Sajian susu coklat milo plus espresso dengan racikan khas 3:30 Kopi"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Hot 330 Helateh",
+      "calories": "120",
+      "description": "Sajian Teh Tarik Segar Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Ice 330 Helateh",
+      "calories": "130",
+      "description": "Sajian Teh Tarik Segar Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Ilusi Kopi",
+      "calories": "90",
+      "description": "Sajian Kopi Beraroma Rum Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Ilusi Kopi",
+      "calories": "100",
+      "description": "Sajian Kopi Beraroma Rum Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Kopi Jelly",
+      "calories": "170",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Jelly"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Americano",
+      "calories": "5",
+      "description": "Sajian Kopi Hitam Dengan Beans Pilihan (Arabica)"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Americano",
+      "calories": "5",
+      "description": "Sajian Kopi Hitam Dengan Beans Pilihan (Arabica)"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Latte",
+      "calories": "120",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Latte",
+      "calories": "130",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Cappucino",
+      "calories": "120",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Cappucino",
+      "calories": "130",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Mocacino",
+      "calories": "140",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar dan Bubuk"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Mocacino",
+      "calories": "150",
+      "description": "Sajian Kopi Arabica Khas 3 : 30 Kopi Yang dipadukan dengan Susu Segar dan Bubuk"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Caramel Latte",
+      "calories": "180",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Caramel"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Caramel Latte",
+      "calories": "190",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Caramel"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Frappucino",
+      "calories": "210",
+      "description": "Sajian Minuman Blend Dengan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Hazelnut Latte",
+      "calories": "180",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Hazelnut"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Hazelnut Latte",
+      "calories": "190",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Hazelnut"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Hot Vanilla Latte",
+      "calories": "180",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Vanilla"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Ice Vanilla Latte",
+      "calories": "190",
+      "description": "Sajian Kopi Khas 3 : 30 Kopi dengan Syrup Vanilla"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Vietnam Drip",
+      "calories": "80",
+      "description": "Bubuk kopi yang dipress menggunakan saringan"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Kopi Tarik",
+      "calories": "90",
+      "description": "Kopi Tarik Adalah Minuman Kopi Yang Berasal Dari Asia Tenggara"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Kopi Matcha",
+      "calories": "120",
+      "description": "Matcha Yg Di Mix Dengan Espresso"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Kopi",
+      "product": "Kopi Charcoal",
+      "calories": "100",
+      "description": "Charcoal Yang Di Mix Dengan Espresso"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Hot Matcha",
+      "calories": "110",
+      "description": "Sajian Minuman Segar Rasa Matcha"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Ice Matcha",
+      "calories": "120",
+      "description": "Sajian Minuman Segar Rasa Matcha"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Hot Charcoal",
+      "calories": "90",
+      "description": "Sajian Minuman Segar Rasa Charcoal Yang Unik"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Ice Charcoal",
+      "calories": "100",
+      "description": "Sajian Minuman Segar Rasa Charcoal Yang Unik"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Hot Coklat",
+      "calories": "160",
+      "description": "Sajian Minuman Segar Rasa Coklat"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Ice Coklat",
+      "calories": "170",
+      "description": "Sajian Minuman Segar Rasa Coklat"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Hot Lemon Tea",
+      "calories": "80",
+      "description": "Sajian Teh Segar Dengan Rasa Lemon"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Ice Lemon Tea",
+      "calories": "90",
+      "description": "Sajian Teh Segar Dengan Rasa Lemon"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Ice Yakult Squash",
+      "calories": "150",
+      "description": "Sajian Minuman Segar Paduan Yakult Dan Racikan Khas 3 : 30 Kopi"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Kopi Beer",
+      "calories": "140",
+      "description": "Sensasi Kopi Yang Segar"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Teh Jelly",
+      "calories": "160",
+      "description": "Teh Dengan Campuran Susu Yg Di Mix Jelly"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Lemon Squash",
+      "calories": "120",
+      "description": "Minuman Lemon Dengan Campuran Sparkling Water"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Ocean Blue",
+      "calories": "110",
+      "description": ""
+    }
+  },
+  {
+    "pk": 44,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Chocomint",
+      "calories": "140",
+      "description": ""
+    }
+  },
+  {
+    "pk": 45,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Lychee Squash",
+      "calories": "110",
+      "description": ""
+    }
+  },
+  {
+    "pk": 46,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "330 Kopi",
+      "category": "Non_Kopi",
+      "product": "Chocoreo",
+      "calories": "170",
+      "description": "Perpaduan Chocolate Dan Oreo"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Kopi",
+      "product": "Espresso",
+      "calories": "5",
+      "description": "Sari Kopi"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Kopi",
+      "product": "Banana Coffee",
+      "calories": "180",
+      "description": "Kopi Susu Pisang"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Kopi",
+      "product": "Black Magic",
+      "calories": "110",
+      "description": "Kopi Hitam Soda Dengan Aren, Lemond, Dan Mojito"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Kopi",
+      "product": "V60",
+      "calories": "5",
+      "description": "Kopi Hitam Seduh Panas"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Kopi",
+      "product": "Japanese Ice",
+      "calories": "5",
+      "description": "Kopi Hitam Seduh Dingin"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Cannon Rock",
+      "calories": "70",
+      "description": "Ginger Soda Dengan Black Tea Special"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Lemonade Green Tea",
+      "calories": "90",
+      "description": "Sensasi Segar Lemon Dan Mint Dengan Basic Green Tea"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Kombucha",
+      "calories": "70",
+      "description": "Fermentasi Daun Teh Terbaik Menjadi Minuman Berkabonasi"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Rengganis Milk Tea",
+      "calories": "140",
+      "description": "Teh Hitam Sensasi Caramel Nutty Dipadu Dengan Susu Murni"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Iced Black Tea",
+      "calories": "5",
+      "description": "Basic teh"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Lychee Tea",
+      "calories": "120",
+      "description": "Teh Hitam Dengan Syrup Leci Dan Buah Leci"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Red Glory",
+      "calories": "100",
+      "description": ""
+    }
+  },
+  {
+    "pk": 59,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Yellow Macchiatea",
+      "calories": "100",
+      "description": ""
+    }
+  },
+  {
+    "pk": 60,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Mojito Mint",
+      "calories": "90",
+      "description": "Soda Dengan Syrup Mojito"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Pinky Punch",
+      "calories": "140",
+      "description": "Strawbery Blueberry Mojito Dan Soda"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Tropical Blue",
+      "calories": "150",
+      "description": "Banana Peppermint Blueberry Telang Dan Soda"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Ice Red Velvet",
+      "calories": "160",
+      "description": ""
+    }
+  },
+  {
+    "pk": 64,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Hot Red Velvet",
+      "calories": "150",
+      "description": ""
+    }
+  },
+  {
+    "pk": 65,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Banana Delight",
+      "calories": "200",
+      "description": "Susu Rasa Pisang Dengan Salted Caramel"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "C7HomeCoffee",
+      "category": "Non_Kopi",
+      "product": "Crumbs Milk",
+      "calories": "180",
+      "description": "Susu Rasa Salted Caramel Dengan Remahan Biskuit"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "CafeOTSS",
+      "category": "Kopi",
+      "product": "Piccolo Latte",
+      "calories": "70",
+      "description": "Single Espreso, Fresh Milk"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "CafeOTSS",
+      "category": "Kopi",
+      "product": "Rangepresso",
+      "calories": "90",
+      "description": "Sunkist, Tonic, Espresso"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "CafeOTSS",
+      "category": "Non_Kopi",
+      "product": "Hibiscus Mango",
+      "calories": "100",
+      "description": "Rosela Tea With Mango"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "CafeOTSS",
+      "category": "Non_Kopi",
+      "product": "Yakult Tea",
+      "calories": "90",
+      "description": "Tea With Yakult"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "CafeOTSS",
+      "category": "Non_Kopi",
+      "product": "Mineral Water",
+      "calories": "0",
+      "description": ""
+    }
+  },
+  {
+    "pk": 72,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "CafeOTSS",
+      "category": "Non_Kopi",
+      "product": "Somethin Green",
+      "calories": "70",
+      "description": "Green Apple Lemon"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "CafeOTSS",
+      "category": "Non_Kopi",
+      "product": "Thai Tea",
+      "calories": "140",
+      "description": "Tea, Milk"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Cotta Coffee",
+      "category": "Kopi",
+      "product": "Es Kopi Susu Regal",
+      "calories": "210",
+      "description": "Another Enjoyment Of Ice Coffee Susu Topped With Biscuits"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Cotta Coffee",
+      "category": "Kopi",
+      "product": "Es Kopi Susu Taro",
+      "calories": "190",
+      "description": "Must Try Also This One"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Cotta Coffee",
+      "category": "Kopi",
+      "product": "Salted Caramel Latte",
+      "calories": "190",
+      "description": "Taste The Creamy Of Salted In Coffee"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Cotta Coffee",
+      "category": "Kopi",
+      "product": "Butterscotch Latte",
+      "calories": "200",
+      "description": "Another Enjoyment Of Ice Coffee Susu Layered With Butterscotch"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Cotta Coffee",
+      "category": "Non_Kopi",
+      "product": "Taro",
+      "calories": "180",
+      "description": "Taro(han) Ini Enak"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Cotta Coffee",
+      "category": "Non_Kopi",
+      "product": "Milo Dinosaur",
+      "calories": "190",
+      "description": "Sometimes Your Kid Need More Than Water"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Cotta Coffee",
+      "category": "Non_Kopi",
+      "product": "Korean Strawberry Milk Latte",
+      "calories": "150",
+      "description": "Must Try This Latte"
+    }
+  },
+  {
+    "pk": 81,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Kopi",
+      "product": "Irish Caffe Latte (Hot)",
+      "calories": "150",
+      "description": "Paduan Latte dan rum non alkohol yang menghasilkan aroma dan rasa lembut"
+    }
+  },
+  {
+    "pk": 82,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Kopi",
+      "product": "Irish Caffe Latte (Ice)",
+      "calories": "150",
+      "description": "Paduan Latte dan rum non alkohol yang menghasilkan aroma dan rasa lembut"
+    }
+  },
+  {
+    "pk": 83,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Kopi",
+      "product": "Caramel Praline Macchiato (Hot)",
+      "calories": "180",
+      "description": "Latte dengan saus Praline dan karamel dengan rasa dan aroma manis"
+    }
+  },
+  {
+    "pk": 84,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Kopi",
+      "product": "Caramel Praline Macchiato (Ice)",
+      "calories": "190",
+      "description": "Latte dengan saus Praline dan karamel dengan rasa dan aroma manis"
+    }
+  },
+  {
+    "pk": 85,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Kopi",
+      "product": "Double Iced Shaken Latte",
+      "calories": "140",
+      "description": "Dua shot espresso yang dikocok dengan susu dan whipped cream"
+    }
+  },
+  {
+    "pk": 86,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Hazelnut Chocolate (Hot)",
+      "calories": "160",
+      "description": "Cokelat kaya dan lembut dengan rasa hazelnut"
+    }
+  },
+  {
+    "pk": 87,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Hazelnut Chocolate (Ice)",
+      "calories": "170",
+      "description": "Cokelat kaya dan lembut dengan rasa hazelnut"
+    }
+  },
+  {
+    "pk": 88,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Hibiscus Pink Grapefruit",
+      "calories": "80",
+      "description": "Kebaikan buah grapefruit dan hibiscus yang memberi kesegaran sepanjang hari"
+    }
+  },
+  {
+    "pk": 89,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Hibiscus Peach Yakult",
+      "calories": "90",
+      "description": "Kebaikan buah peach, hibiscus, dan yakult yang memberi kesegaran sepanjang hari"
+    }
+  },
+  {
+    "pk": 90,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Hibiscus Berry Yakult",
+      "calories": "90",
+      "description": "Kebaikan buah berry, hibiscus, dan yakult yang memberi kesegaran sepanjang hari"
+    }
+  },
+  {
+    "pk": 91,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Biscuit Chizu",
+      "calories": "180",
+      "description": "Perpaduan susu segar dengan busa keju krim di atasnya dengan biskuit remuk"
+    }
+  },
+  {
+    "pk": 92,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Choco Chizu",
+      "calories": "170",
+      "description": "Cokelat kaya dan lembut dengan busa keju krim disajikan dengan es"
+    }
+  },
+  {
+    "pk": 93,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Matcha Chizu (Iced)",
+      "calories": "140",
+      "description": "Perpaduan antara matcha premium dan busa keju krim dalam cangkir"
+    }
+  },
+  {
+    "pk": 94,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Chizu Macchiato (Iced)",
+      "calories": "160",
+      "description": "Paduan susu, sirup roasted caramel, lapisan krim Chizu, dan espresso di atasnya"
+    }
+  },
+  {
+    "pk": 95,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "English Breakfast Tea (Hot)",
+      "calories": "5",
+      "description": "The legendary grand classic fragrant black tea"
+    }
+  },
+  {
+    "pk": 96,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "English Breakfast Tea (Iced)",
+      "calories": "5",
+      "description": "The legendary grand classic fragrant black tea"
+    }
+  },
+  {
+    "pk": 97,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Chamomile (Hot)",
+      "calories": "5",
+      "description": "Chamomile flowers boast a rich honey aroma and yield a golden, theine-free cup"
+    }
+  },
+  {
+    "pk": 98,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Chamomile (Iced)",
+      "calories": "5",
+      "description": "Chamomile flowers boast a rich honey aroma and yield a golden, theine-free cup"
+    }
+  },
+  {
+    "pk": 99,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Creme Caramel Tea (Hot)",
+      "calories": "5",
+      "description": "Delicate red tea from South Africa with blend of sweet French spices"
+    }
+  },
+  {
+    "pk": 100,
+    "model": "drinks.drink",
+    "fields": {
+      "merchant_area": "jakarta",
+      "merchant_name": "Fore Coffee",
+      "category": "Non_Kopi",
+      "product": "Creme Caramel Tea (Iced)",
+      "calories": "5",
+      "description": "Delicate red tea from South Africa with blend of sweet French spices"
+    }
+  }
 ]
