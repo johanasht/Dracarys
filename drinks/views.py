@@ -10,17 +10,19 @@ import json
 
 
 def show_drink(request):
-    drinks = Drink.objects.all()
+    Drink.objects.filter(calories__isnull=True).delete()
+
+    drinks = Drink.objects.all().values()
     form = DrinkFilterForm(request.GET)
 
     if form.is_valid():
         category = form.cleaned_data.get("category")
 
         if category:
-            drinks = drinks.filter(category=category)
+            drinks = drinks.filter(category=category).distinct()
 
     context = {
-        'form': form,
+        'form': form, 
         'drinks': drinks,
     }
 
@@ -36,7 +38,6 @@ def add_drink(request):
     if request.method == "POST":
         merchant_area = request.POST.get('merchant_area')
         calories = request.POST.get('calories')
-        print("Calories:", calories)
         merchant_name = request.POST.get('merchant_name')
         category = request.POST.get('category')
         product = request.POST.get('product')
@@ -60,7 +61,7 @@ def add_to_favorites(request, drink_id):
         return redirect(reverse("user_auth:login"))
 
 def get_drink(request):
-    data = Drink.objects.all()
+    data = Drink.objects.all().distinct()
     return HttpResponse(serializers.serialize("json", data), 
     content_type="application/json")
 
@@ -79,7 +80,7 @@ def filter_drink(request):
     return JsonResponse(drinks_json, safe=False)
 
 def show_json(request):
-    data = Drink.objects.all()
+    data = Drink.objects.all().values().distinct()
     return HttpResponse(serializers.serialize("json", data), content_type="application/json")
 
 

@@ -135,7 +135,7 @@
             <div class="card-box-description">
               <h5 class="card-box-title mt-4" >{{ foodItem.fields.product.title|truncatewords:3 }}</h5>
               <div>
-                <p>{{ foodItem.fields.merchant_area.title}}</p>
+                <p>{{ foodItem.fields.calories}} kcal</p>
                 <p>{{ foodItem.fields.merchant_name.title|truncatewords:2 }}</p>
               </div>
               <div class="relative">
@@ -167,8 +167,8 @@
             <div class="card-box-description">
               <h5 class="card-box-title mt-4">{{ drinkItem.fields.product.title|truncatewords:3 }}</h5>
               <div>
-                <p>{{ drinkItem.fields.merchant_area }}</p>
-                <p>{{ drinkItem.fields.merchant_name }}</p>
+                <p>{{ drinkItem.fields.calories }} kcal</p>
+                <p>{{ drinkItem.fields.merchant_name.title }}</p>
               </div>
               <div class="relative">
                 <a href="{% url 'foods:food_detail' drinkItem.pk %}" class="btn btn-success" style="background-color: #014d2f;">
