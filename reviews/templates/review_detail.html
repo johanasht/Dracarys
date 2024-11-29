@@ -1,0 +1,26 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'reviews/css/star.css' %}">
+
+<div style="margin-bottom: 5em; position: relative; padding: 1.5em; margin-right: auto !important; margin-left: auto !important; max-width: 650px;">
+    <h4>Reviews</h4>
+    {% if reviews %}
+        <div class="review-list">
+            {% for review in reviews %}
+                <div class="row review-item mt-3">
+                    <div class="col-auto align-self-center">
+                        <i class="fa-solid fa-user detail-desc-icon"></i>
+                    </div>
+                    <div class="col" style="padding: 5px;  display: flex; flex-direction: column; flex-wrap: wrap; align-items: flex-start; text-align: center; background-color: rgb(245, 255, 235);">
+                        <p style="font-weight: bold; margin: 0px;"><strong>{{ review.user.username }}</strong></p>
+                        <div class="stars-landing" id="stars-box" style="--rating: {{ review.rating }}; margin-top: -30px;">★★★★★</div>
+                        <div style="margin: 0px;">
+                            <p class="desc-text" style="margin: 0;">{{ review.ulasan }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="text-muted text-center mt-3">No reviews yet. Be the first to review!</p>
+    {% endif %}
+</div>

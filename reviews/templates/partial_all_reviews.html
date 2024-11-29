@@ -27,7 +27,7 @@
                     <h5 class="card-box-title mt-4" style="font-size: 1.25rem;">{{ item.fields.product.title|truncatewords:2 }}</h5>
                     <div class="relative">
                         {% if item.type == 'food' %}
-                        <a href="{% url 'foods:food_detail' item.pk %}" class="btn btn-success" >
+                        <a href="{% url 'reviews:food_detail' item.pk %}" class="btn btn-success" >
                             See Details
                         </a>
                         {% elif item.type == 'drink' %}

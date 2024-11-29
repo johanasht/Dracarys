@@ -58,6 +58,7 @@ def review_fnd_ajax(request, content_type, object_id):
                 content_type=content_type,
                 object_id=object_id
             )
+           
             if content_type.model == 'food':
                 return JsonResponse({'success': True, 'redirect_url': reverse('foods:show_food')})
             else:
@@ -67,6 +68,60 @@ def review_fnd_ajax(request, content_type, object_id):
 
     return JsonResponse({'success': False, 'error': 'Invalid request method'})
 
+def food_detail(request, food_id):
+    food = get_object_or_404(Food, id=food_id)
+    food_content_type = ContentType.objects.get_for_model(Food)
+    reviews = Review.objects.filter(
+        content_type=food_content_type,
+        object_id=food_id
+    ).select_related('user')  
+
+    context = {
+        'food': food,
+        'reviews': reviews
+    }
+    return render(request, 'reviews/food_detail.html', context)
+
+def food_review_detail(request, food_id):
+    food_content_type = ContentType.objects.get_for_model(Food)
+    reviews = Review.objects.filter(
+        content_type=food_content_type,
+        object_id=food_id
+    ).select_related('user')  
+    context = {
+        'reviews': reviews,
+        'food_id': food_id,
+    }
+    return render(request, 'review_detail.html', context)
+
+def drink_detail(request, drink_id):
+    drink = get_object_or_404(Drink, id=drink_id)
+    food_content_type = ContentType.objects.get_for_model(Drink)
+    reviews = Review.objects.filter(
+        content_type=food_content_type,
+        object_id=drink_id
+    ).select_related('user')  
+
+    context = {
+        'drinks': drink,
+        'reviews': reviews
+    }
+    return render(request, 'reviews/drink_detail.html', context)
+
+def drink_review_detail(request, drink_id):
+    drink_content_type = ContentType.objects.get_for_model(Drink)
+    reviews = Review.objects.filter(
+        content_type=drink_content_type,
+        object_id=drink_id
+    ).select_related('user')  
+    context = {
+        'reviews': reviews,
+        'food_id': drink_id,
+    }
+    return render(request, 'review_detail.html', context)
+
+
+    
 @csrf_exempt
 def review_fnd_flutter(request, content_type, object_id):
     content_type = ContentType.objects.get(model=content_type)

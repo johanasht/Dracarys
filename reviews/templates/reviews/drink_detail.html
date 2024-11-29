@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% load static %}
+{% block meta %}
+<title>Dracarys</title>
+{% endblock meta %}
+
+{% block content %}
+<div style="margin-bottom: 5em; margin-top: 5em;">
+  <div class="mx-auto detail-container"> 
+    <img
+    {% if  drink.category == "Kopi" %}
+      src="{% static  'images/category/coffe_icon.png' %}"
+    {% else %}
+      src="{% static 'images/category/non_coffee_icon.png' %}"
+    {% endif %}
+      class="detail-img"
+    />
+    <h4 class="detail-desc-product">{{ food.product.title }}</h4>
+    <div class="container">
+      <div class="row mt-4 mx-auto">
+        <div class="detail-desc-description col d-flex gap-3">
+          <span class="detail-desc-icon align-self-center">
+            <i class="fa-regular fa-note-sticky"></i>
+          </span>
+          <div class="desc-text">
+            <p class="desc-text-title mt-1">Description</p>
+            <p>{{drink.description}}</p> 
+          </div>
+        </div>
+        <div class="detail-desc-merchant col d-flex gap-3">
+          <span class="detail-desc-icon align-self-center">
+            <i class="fa-solid fa-shop"></i>
+          </span>
+          <div>
+            <p class="desc-text-title mt-1">Merchant Name</p>
+            <p>{{drink.merchant_name}}</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="row mt-4 mx-auto">
+        <div class="detail-desc-description col d-flex gap-3">
+          <span class="detail-desc-icon align-self-center">
+            <i class="fa-solid fa-city"></i>
+          </span>
+          <div class="desc-text">
+            <p class="desc-text-title mt-1">Merchant Area</p>
+            <p>{{drink.merchant_area.title}}</p> 
+          </div>
+        </div>
+        <div class="detail-desc-merchant col d-flex gap-3">
+          <span class="detail-desc-icon align-self-center">
+            <i class="fa-solid fa-layer-group"></i>
+          </span>
+          <div>
+            <p class="desc-text-title mt-1">Category</p>
+            <p>{{drink.category}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4 mx-auto">
+        <div class="detail-desc-description col d-flex gap-3">
+          <span class="detail-desc-icon align-self-center">
+            <i class="fa-solid fa-cubes-stacked"></i>
+          </span>
+          <div class="desc-text">
+            <p class="desc-text-title mt-1">Calories</p>
+            <p>{{drink.calories}} kcal</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-4 text-end">
+      <button type="button" onclick="window.location.href = `{% url 'drinks:show_drink' %}` " class="detail-btn">Back to Drink</button>
+      <button id="reviewButton" data-content-type-id="food" data-object-id="{{ food.pk }}," class="detail-btn">Review</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  {% include "review_detail.html"%}
+</div>
+
+<div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="reviewModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      {% include 'review_modal.html' %}
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const reviewButton = document.getElementById("reviewButton");
+  const reviewModal = $('#reviewModal');
+
+  function showModal() {
+    reviewModal.modal('show');
+  }
+
+  function hideModal() {
+    reviewModal.modal('hide');
+  }
+
+  reviewButton.addEventListener("click", showModal);
+  reviewModal.on('click', '.close', hideModal);
+  reviewModal.on('click', '#close-modal', hideModal);
+
+  reviewModal.on('submit', '#review-form', function(event) {
+    event.preventDefault();
+    const formData = $(this).serialize();
+    $.ajax({
+      type: 'POST',
+      url: '{% url "reviews:review_fnd_ajax" content_type="food" object_id=drink.pk %}',
+      data: formData,
+      dataType: 'json',
+      success: function(response) {
+        if (response.login_required) {
+            window.location.href = '{% url "user_auth:login" %}';
+        } else if(response.success) {
+            window.location.href = response.redirect_url;
+        } else {
+          console.error('Submission failed:', response.error);
+        }
+      },
+      error: function(xhr, status, error) {
+        console.error('Error:', xhr.responseText);
+      }
+    });
+  });
+
+});
+</script>
+
+
+{% endblock content %}
+
+{% block script %}
+<script src="/static/js/nav_script.js"></script>
+<script src="/static/js/modal_Drink.js"></script>
+{% endblock script %}

@@ -1,9 +1,13 @@
 from django.urls import path
-from .views import review_fnd, get_reviews_json, get_reviews_template, reviews_template, get_all_reviews_partial, review_fnd_ajax, get_all_reviews_json, get_csrf_token_ajax, review_fnd_flutter
+from .views import review_fnd, get_reviews_json,food_detail, drink_detail, get_reviews_template, reviews_template, get_all_reviews_partial, review_fnd_ajax, get_all_reviews_json, get_csrf_token_ajax, review_fnd_flutter, food_review_detail, drink_review_detail
 
 app_name = "reviews"
 
 urlpatterns = [
+    path('food_detail/<int:food_id>/', food_detail, name='food_detail'),
+    path('food_detail/<int:food_id>/reviews/', food_review_detail, name='review_detail'),
+    path('drink_detail/<int:drink_id>/', drink_detail, name='drink_detail'),
+    path('drink_detail/<int:food_id>/reviews/', drink_review_detail, name='review_detail'),
     path('get_template', reviews_template, name='get_template'),
     path('get_reviews_template', get_all_reviews_partial, name='get_reviews_template'),
     path('get_all_reviews_json', get_all_reviews_json, name='get_all_reviews_json'),
