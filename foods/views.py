@@ -10,13 +10,15 @@ import json
 
 
 def show_food(request):
+    Food.objects.filter(calories__isnull=True).delete()
+    
     foods = Food.objects.all()
     form = FoodFilterForm(request.GET)
     
     if form.is_valid():
         category = form.cleaned_data.get("category")
         if category:
-            foods = foods.filter(category=category)
+            foods = foods.filter(category=category).distinct()
 
 
     context = {
@@ -38,6 +40,7 @@ def add_food(request):
         merchant_name = request.POST.get('merchant_name')
         category = request.POST.get('category')
         product = request.POST.get('product')
+        calories = request.POST.get('calories')
         description = request.POST.get('description')
 
         new_food = Food(merchant_area=merchant_area, merchant_name=merchant_name, category=category, product=product,
