@@ -72,7 +72,7 @@
     </div>
     <div class="mt-4 text-end">
       <button type="button" onclick="window.location.href = `{% url 'drinks:show_drink' %}` " class="detail-btn">Back to Drink</button>
-      <button id="reviewButton" data-content-type-id="food" data-object-id="{{ food.pk }}," class="detail-btn">Review</button>
+      <button id="reviewButton" data-content-type-id="drink" data-object-id="{{ drink.pk }}" class="detail-btn">Review</button>
     </div>
   </div>
 </div>
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const formData = $(this).serialize();
     $.ajax({
       type: 'POST',
-      url: '{% url "reviews:review_fnd_ajax" content_type="food" object_id=drink.pk %}',
+      url: '{% url "reviews:review_fnd_ajax" content_type="drink" object_id=drink.pk %}',
       data: formData,
       dataType: 'json',
       success: function(response) {

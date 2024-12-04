@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const formData = $(this).serialize();
     $.ajax({
       type: 'POST',
-      url: '{% url "reviews:review_fnd_ajax" content_type="food" object_id=drink.pk %}',
+      url: '{% url "reviews:review_fnd_ajax" content_type="drink" object_id=drink.pk %}',
       data: formData,
       dataType: 'json',
       success: function(response) {
