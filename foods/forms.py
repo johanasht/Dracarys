@@ -7,4 +7,4 @@ class FoodFilterForm(forms.Form):
 class AddFoodForm(forms.ModelForm):
     class Meta:
         model = Food
-        fields = ['merchant_area', 'merchant_name', 'category', 'product', 'description']
+        fields = ['merchant_area', 'merchant_name', 'category', 'product', 'calories', 'description']
