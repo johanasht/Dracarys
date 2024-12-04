@@ -499,6 +499,16 @@ footer {
   border-radius: 10px;
 }
 
+.btn-delete {
+  padding: 1rem;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+.btn-delete:hover {
+  color: rgb(139, 0, 0);
+}
+
+
 
 /* Responsiveness */
 

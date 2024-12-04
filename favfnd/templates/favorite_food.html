@@ -68,6 +68,12 @@
                 </a>
               </div>
             </div>
+            <form action="{% url 'favfnd:remove_favfood' item.id %}" method="POST" style="display: inline;">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-danger" style="background: none; border: none;">
+                  <i class="fas fa-trash" style="color: red; display: flex; justify-content: end;"></i> Hapus
+              </button>
+          </form>
           </div>
         </div>
       </div>
