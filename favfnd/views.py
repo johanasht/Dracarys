@@ -8,7 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 from .models import Drink
 from .models import Food
 from .forms import FoodFilterForm, DrinkFilterForm
-import json
+from django.shortcuts import get_object_or_404
 # Create your views here.
 
 def show_favorites(request):
@@ -79,9 +79,34 @@ def show_json_favdrink_by_user_id (request, user_id) :
     datafood = user.favdrink.all()
     return HttpResponse(serializers.serialize("json", datafood), content_type="application/json")
      
+def remove_favdrink(request, drink_id):
+    if request.method == "POST":
+        if request.user.is_authenticated:
+            user = UserProfile.objects.filter(user=request.user).first()
+            try:
+                drink = get_object_or_404(user.favdrink, id=drink_id)
+                user.favdrink.remove(drink)
+                return redirect('favfnd:show_favdrink')
+            except Exception as e:
+                print("Error:", e)
+        else:
+            print("User not authenticated")
+    else:
+        print("Invalid request method:", request.method)
+    return JsonResponse({"success": False, "message": "Unauthorized or invalid request."}, status=403)
 
-
-
-    
-
-
+def remove_favfood(request, food_id):
+    if request.method == "POST":
+        if request.user.is_authenticated:
+            user = UserProfile.objects.filter(user=request.user).first()
+            try:
+                food = get_object_or_404(user.favfood, id=food_id)
+                user.favfood.remove(food)
+                return redirect('favfnd:show_favfood')
+            except Exception as e:
+                print("Error:", e)
+        else:
+            print("User not authenticated")
+    else:
+        print("Invalid request method:", request.method)
+    return JsonResponse({"success": False, "message": "Unauthorized or invalid request."}, status=403)
