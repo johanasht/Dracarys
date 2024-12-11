@@ -10,7 +10,7 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('foods', '0003_alter_food_category'),
+        ('foods', '0004_auto_20240422_0252'),
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
     ]
 

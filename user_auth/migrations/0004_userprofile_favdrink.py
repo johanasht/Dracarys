@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('drinks', '0004_alter_drink_category_alter_drink_description_and_more'),
+        ('drinks', '0005_alter_drink_category_alter_drink_description_and_more'),
         ('user_auth', '0003_alter_userprofile_favfood'),
     ]
 

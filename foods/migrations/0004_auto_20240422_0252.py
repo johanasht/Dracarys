@@ -10,7 +10,7 @@ def load_my_initial_data(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('foods', '0001_initial'),
+        ('foods', '0003_food_calories'),
     ]
 
     operations = [

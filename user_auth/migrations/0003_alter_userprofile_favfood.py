@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('foods', '0003_alter_food_category'),
+        ('foods', '0004_auto_20240422_0252'),
         ('user_auth', '0002_rename_favorite_food_userprofile_favfood'),
     ]
 

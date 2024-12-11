@@ -11,7 +11,7 @@ def load_my_initial_data(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('drinks', '0003_alter_drink_category'),
+        ('drinks', '0004_drink_calories'),
     ]
 
     operations = [
