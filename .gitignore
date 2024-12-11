@@ -137,4 +137,4 @@ GitHub.sublime-settings
 .history
 
 # Ignore the SQLite database file
-db.sqlite3
+/db.sqlite3
